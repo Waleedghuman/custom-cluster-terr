@@ -14,10 +14,3 @@ variable "rancher_api" {
 variable "rancher_token" {
   default = "/production/rancher-puffersoft/token-key"
 }
-# variable "s3_bucket_name" {
-#   default = "waleed-bkt"
-# }
-# variable "key_file_s3bkt" {
-#   default = "terraform.tfstate"
-
-# }
