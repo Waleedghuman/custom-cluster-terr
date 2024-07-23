@@ -9,7 +9,7 @@ variable "kubernetes_version" {
 }
 
 variable "rancher_api" {
-  default = "/production/rancher-puffersoft/url"
+  default = "/production/rancher-puffersoft/url"     # I used AWS SSM Parameter where my creds are saves and used in terraform to fetch these saved url and access token
 }
 variable "rancher_token" {
   default = "/production/rancher-puffersoft/token-key"
